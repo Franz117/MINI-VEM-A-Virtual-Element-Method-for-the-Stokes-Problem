@@ -7,10 +7,10 @@ This code is provided for academic and research purposes. Commercial use is stri
 MINI-VEM is a MATLAB implementation of a **novel Virtual Element Method** inspired by the classical Mini element for the **incompressible Stokes equations**. The method works on general polygonal meshes and ensures stable velocity-pressure coupling.
 
 This repository contains scripts for:
-- Mesh generation (triangular, quadrilateral, polygonal)
-- MINI-VEM, MINI, quad MINI (Lamanchè), UNVIRTUALIZED MINI-VEM.
-- Post-processing and visualization
-- Validation and convergence studies
+- Mesh generation (triangular, quadrilateral, hanging, diamond)
+- MINI-VEM, MINI, Quad-MINI (Lamichane), UNVIRTUALIZED MINI-VEM.
+- Visualization
+- Validation and convergence analysis
 
 ## Folder Structure
 - `main/` — Main scripts to run simulations
